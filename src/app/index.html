@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,  initial-scale=1.0">
     <title>Lista Telefonica</title>
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/ui.css">
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
    
@@ -20,11 +21,22 @@
     <script src="constants/configValue.js"></script>
     <script src="js/filters/nameFilter.js"></script>
     <script src="js/filters/ellipsisFilter.js"></script>
+    <script src="js/directives/uiAlertDirective.js"></script>
 </head>
 <body ng-controller="listaTelefonicaCtrl">
     <div class="jumbotron">
         <h3>{{app}}</h3>
-        {{message}}
+
+        <div ui-alert></div>
+
+        <div class="ui-alert">
+            <div class="ui-alert-title">
+                Ops, acenteceu um problema!
+            </div>
+            <div class="ui-alert-message">
+                {{error}}
+            </div>
+        </div>
         <input class="form-control" type="text" ng-model="criterioDeBusca" placeholder="Filtrar" />
         <table ng-show="contatos.length > 0" class="table">
             <tr>

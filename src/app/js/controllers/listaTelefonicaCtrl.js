@@ -3,16 +3,17 @@ angular.module("listaTelefonica").controller("listaTelefonicaCtrl", function ($s
     $scope.contatos = [];
     $scope.operadoras = [];
 
-    const carregarContatos = function (params) {
-        contatosAPI.getContatos().success(
+    const carregarContatos = function () {
+        contatosAPI.getContatos()
+        .success(
             data => $scope.contatos = data
         ).error(
             (data, status) => {
-                $scope.message = "Houve um problema na requisição: ERROR " + status + "; Details " + data;
+                $scope.error = "Não foi possível carregar os dados";
         })
     }
 
-    const carregarOperadoras = function (params) {
+    const carregarOperadoras = function () {
         operadorasAPI.getOperadoras().success(
             data => $scope.operadoras = data
         )
@@ -30,8 +31,7 @@ angular.module("listaTelefonica").controller("listaTelefonicaCtrl", function ($s
         })
         .error(
             (data) => {
-                $scope.message = "Houve um problema na requisição: " + data;
-                console.log($scope.message)
+                $scope.error = "Erro ao carregar operadoras";
         })
     };
     $scope.apagarContatos = function (contatos) {
