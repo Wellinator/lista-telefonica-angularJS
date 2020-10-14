@@ -1,3 +1,4 @@
+//With "factory" method 
 angular.module("listaTelefonica").factory("contatosAPI", function ($http) {
    const _getContatos = function () {
        return $http.get("http://localhost:3001/contatos");
