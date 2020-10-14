@@ -1,5 +1,4 @@
 angular.module("listaTelefonica").controller("listaTelefonicaCtrl", function ($scope, contatosAPI, operadorasAPI, serialGenerator){
-    console.log(serialGenerator.generate())
     $scope.app = "Lista Telefonica";
     $scope.contatos = [];
     $scope.operadoras = [];
@@ -9,7 +8,7 @@ angular.module("listaTelefonica").controller("listaTelefonicaCtrl", function ($s
             data => $scope.contatos = data
         ).error(
             (data, status) => {
-                $scope.message = "Houve um problema na requisição: ERROR " + status;
+                $scope.message = "Houve um problema na requisição: ERROR " + status + "; Details " + data;
         })
     }
 
