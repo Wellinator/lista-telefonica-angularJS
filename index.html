@@ -15,6 +15,9 @@
     <script src="js/controllers/listaTelefonicaCtrl.js"></script>
     <script src="js/services/contatosAPIService.js"></script>
     <script src="js/services/operadoresAPIService.js"></script>
+    <script src="js/services/serialGeneratorService.js"></script>
+    <script src="config/serialGeneratorConfig.js"></script>
+    <script src="constants/configValue.js"></script>
 </head>
 <body ng-controller="listaTelefonicaCtrl">
     <div class="jumbotron">
@@ -24,6 +27,7 @@
         <table ng-show="contatos.length > 0" class="table">
             <tr>
                 <th></th>
+                <th>Serial</th>
                 <th><a href=""  ng-click="ordenarPor('nome')">Nome</a></th>
                 <th><a href=""  ng-click="ordenarPor('telefone')">Telefone</a></th>
                 <th><a href=""  ng-click="ordenarPor('operadora')">Operadora</a></th>
@@ -34,6 +38,7 @@
                 <td>
                     <input type="checkbox" ng-model="contato.selecionado">
                 </td>
+                <td> {{contato.serial}} </td>
                 <td>{{ contato.nome | uppercase }}</td>
                 <td>{{ contato.telefone }}</td>
                 <td>{{ contato.operadora.nome | lowercase }}</td>

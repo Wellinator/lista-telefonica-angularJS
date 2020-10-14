@@ -97,6 +97,34 @@
       "cor": "Orange",
       "data": "2020-10-14T14:47:52.560Z",
       "id": 8
+    },
+    {
+      "nome": "Teste3",
+      "telefone": "12345-1234",
+      "operadora": {
+        "nome": "Tim",
+        "codigo": 41,
+        "categoria": "Celular",
+        "preco": 2
+      },
+      "serial": "NSF^-I!ZE))ASH JM6,(",
+      "cor": "Orange",
+      "data": "2020-10-14T17:23:33.156Z",
+      "id": 9
+    },
+    {
+      "nome": "ajhgjshd",
+      "telefone": "1234-1234",
+      "operadora": {
+        "nome": "Embratel",
+        "codigo": 21,
+        "categoria": "Fixo",
+        "preco": 2
+      },
+      "serial": "WBY['U%UV'\\QS*G\"XB:J",
+      "cor": "Orange",
+      "data": "2020-10-14T17:30:13.937Z",
+      "id": 10
     }
   ],
   "operadoras": [
