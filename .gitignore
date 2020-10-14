@@ -1,4 +1,3 @@
-node_modules
 # Notepad++ backups #
 *.bak
 
@@ -43,6 +42,7 @@ build/Release
 
 # Dependency directories
 node_modules/
+api/node_modules/
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
