@@ -1,0 +1,121 @@
+{
+  "contatos": [
+    {
+      "id": 1,
+      "nome": "Wellington",
+      "telefone": "2345-6789",
+      "data": "new Date()",
+      "operadora": {
+        "nome": "Tim",
+        "codigo": 41,
+        "categoria": "Celular"
+      },
+      "cor": "ForestGreen"
+    },
+    {
+      "id": 2,
+      "nome": "Ana",
+      "telefone": "5432-9876",
+      "data": "new Date()",
+      "operadora": {
+        "nome": "Oi",
+        "codigo": 14,
+        "categoria": "Celular"
+      },
+      "cor": "ForestGreen"
+    },
+    {
+      "id": 3,
+      "nome": "Maria",
+      "telefone": "99123-3030",
+      "data": "new Date()",
+      "operadora": {
+        "nome": "Embratel",
+        "codigo": 21,
+        "categoria": "Fixo"
+      },
+      "cor": "ForestGreen"
+    },
+    {
+      "id": 4,
+      "nome": "Joao",
+      "telefone": "98233-6543",
+      "data": "new Date()",
+      "operadora": {
+        "nome": "Vivo",
+        "codigo": 15,
+        "categoria": "Celular"
+      },
+      "cor": "LightSlateGrey"
+    },
+    {
+      "nome": "Teste",
+      "telefone": "1234-1234",
+      "operadora": {
+        "nome": "Vivo",
+        "codigo": 15,
+        "categoria": "Celular",
+        "preco": 3
+      },
+      "cor": "Orange",
+      "id": 5
+    },
+    {
+      "nome": "Wellington 2",
+      "telefone": "12345-6789",
+      "operadora": {
+        "nome": "GVT",
+        "codigo": 25,
+        "categoria": "Fixo",
+        "preco": 4
+      },
+      "cor": "Orange",
+      "id": 6
+    },
+    {
+      "nome": "Teste",
+      "telefone": "12345-1234",
+      "operadora": {
+        "nome": "Embratel",
+        "codigo": 21,
+        "categoria": "Fixo",
+        "preco": 2
+      },
+      "cor": "Orange",
+      "data": "2020-10-14T13:12:35.030Z",
+      "id": 7
+    }
+  ],
+  "operadoras": [
+    {
+      "nome": "Oi",
+      "codigo": 14,
+      "categoria": "Celular",
+      "preco": 2
+    },
+    {
+      "nome": "Vivo",
+      "codigo": 15,
+      "categoria": "Celular",
+      "preco": 3
+    },
+    {
+      "nome": "Tim",
+      "codigo": 41,
+      "categoria": "Celular",
+      "preco": 2
+    },
+    {
+      "nome": "GVT",
+      "codigo": 25,
+      "categoria": "Fixo",
+      "preco": 4
+    },
+    {
+      "nome": "Embratel",
+      "codigo": 21,
+      "categoria": "Fixo",
+      "preco": 2
+    }
+  ]
+}
