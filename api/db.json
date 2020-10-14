@@ -84,6 +84,19 @@
       "cor": "Orange",
       "data": "2020-10-14T13:12:35.030Z",
       "id": 7
+    },
+    {
+      "nome": "TESTE2",
+      "telefone": "12345-1235",
+      "operadora": {
+        "nome": "Tim",
+        "codigo": 41,
+        "categoria": "Celular",
+        "preco": 2
+      },
+      "cor": "Orange",
+      "data": "2020-10-14T14:47:52.560Z",
+      "id": 8
     }
   ],
   "operadoras": [
