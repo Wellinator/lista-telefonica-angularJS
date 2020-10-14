@@ -44,7 +44,11 @@
 <body ng-controller="listaTelefonicaCtrl">
     <div class="jumbotron">
         <h3>{{app}}</h3>
-        <div ui-alert></div>
+
+        <div ui-alert title="Ops, acenteceu um problema!">
+            {{error}}
+        </div>
+
         <input class="form-control" type="text" ng-model="criterioDeBusca" placeholder="Filtrar" />
         <table ng-show="contatos.length > 0" class="table">
             <tr>
