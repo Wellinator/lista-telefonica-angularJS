@@ -40,6 +40,7 @@
     <script src="js/filters/nameFilter.js"></script>
     <script src="js/filters/ellipsisFilter.js"></script>
     <script src="js/directives/uiAlertDirective.js"></script>
+    <script src="js/directives/uiDateDirective.js"></script>
 </head>
 <body ng-controller="listaTelefonicaCtrl">
     <div class="jumbotron">
@@ -78,6 +79,8 @@
         <form name="contatoForm">
             <input class="form-control mb-1" type="text" placeholder="Nome" name="nome" ng-model="contato.nome" ng-required="true" ng-minlength="5" ng-maxlength="50" />
             <input class="form-control mb-1" type="text" placeholder="Telefone" name="telefone" ng-model="contato.telefone" ng-required="true" ng-pattern="/^\d{4,5}-\d{4}$/" max="10" />
+            {{contato.data}}
+            <input class="form-control mb-1" type="text" ng-model="contato.data" name="data" placeholder="Data" ui-date />
             <select class="form-control mb-4" name="operadoras" id="selectOperadoras" ng-model="contato.operadora" ng-options="operadora.nome + ' ('+ (operadora.preco | currency) + ') ' for operadora in operadoras">
                 <option value="">Selecione uma operadora</option>
             </select>
