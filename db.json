@@ -27,6 +27,20 @@
       "cor": "Orange",
       "data": "2020-10-14T17:30:13.937Z",
       "id": 2
+    },
+    {
+      "data": "2020-10-16T19:45:07.343Z",
+      "nome": "Novo teste",
+      "telefone": "12345-1234",
+      "operadora": {
+        "nome": "Vivo",
+        "codigo": 15,
+        "categoria": "Celular",
+        "preco": 3
+      },
+      "serial": "<+6&0=CCL'/\\H*6\"#OHT>5=Q.$^,SN2B'1PS#JWZ5\\%4=X5O?5'HX\\P\\9'\"DN8!-GX]>H'LA'E;Q)(A;V_.NYYLDZ?M2V^1/3EDT",
+      "cor": "Orange",
+      "id": 3
     }
   ],
   "operadoras": [
