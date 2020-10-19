@@ -1,0 +1,20 @@
+<div class="jumbotron">
+    <table class="table">
+        <tr>
+            <th>Nome</th>
+            <th>Telefone</th>
+            <th>Operadora</th>
+            <th>Categoria</th>
+            <th>Serial</th>
+            <th>Data</th>
+        </tr>
+        <tr>
+            <td>{{contato.nome}}</td>
+            <td>{{contato.telefone}}</td>
+            <td>{{contato.operadora.nome}}</td>
+            <td>{{contato.operadora.categoria}}</td>
+            <td>{{contato.serial}}</td>
+            <td>{{contato.data | date:'dd/MM/yyyy HH:mm'}}</td>
+        </tr>
+    </table>
+</div>

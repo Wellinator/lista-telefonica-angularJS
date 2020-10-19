@@ -41,6 +41,62 @@
       "serial": "<+6&0=CCL'/\\H*6\"#OHT>5=Q.$^,SN2B'1PS#JWZ5\\%4=X5O?5'HX\\P\\9'\"DN8!-GX]>H'LA'E;Q)(A;V_.NYYLDZ?M2V^1/3EDT",
       "cor": "Orange",
       "id": 3
+    },
+    {
+      "data": "2020-10-19T12:35:54.744Z",
+      "nome": "Wellignton",
+      "telefone": "1234-1234",
+      "operadora": {
+        "nome": "Embratel",
+        "codigo": 21,
+        "categoria": "Fixo",
+        "preco": 2
+      },
+      "serial": "K6MI#",
+      "cor": "Orange",
+      "id": 4
+    },
+    {
+      "nome": "Maria da Silva",
+      "telefone": "1234-1234",
+      "data": "2020-10-19T12:43:05.438Z",
+      "operadora": {
+        "nome": "Tim",
+        "codigo": 41,
+        "categoria": "Celular",
+        "preco": 2
+      },
+      "serial": "@(7X*",
+      "cor": "Orange",
+      "id": 5
+    },
+    {
+      "nome": "Ana Nascimento",
+      "telefone": "12345-1234",
+      "data": "2020-10-19T12:44:57.085Z",
+      "operadora": {
+        "nome": "Vivo",
+        "codigo": 15,
+        "categoria": "Celular",
+        "preco": 3
+      },
+      "serial": "6T P:",
+      "cor": "Orange",
+      "id": 6
+    },
+    {
+      "nome": "Ana Nascimento",
+      "telefone": "12345-1233",
+      "data": "2020-10-19T12:45:25.369Z",
+      "operadora": {
+        "nome": "GVT",
+        "codigo": 25,
+        "categoria": "Fixo",
+        "preco": 4
+      },
+      "serial": ".H'/&",
+      "cor": "Orange",
+      "id": 7
     }
   ],
   "operadoras": [
